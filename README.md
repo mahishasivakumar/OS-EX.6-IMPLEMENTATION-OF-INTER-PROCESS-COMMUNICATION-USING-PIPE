@@ -20,7 +20,7 @@ IPC using pipes
 
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 
 int main()
@@ -60,7 +60,7 @@ read(fd[0],a,5); printf("The string received from pipe is : %s",a);
 return 0;
 
 }
-
+```
 ## OUTPUT:
 ![image](https://github.com/mahishasivakumar/OS-EX.6-IMPLEMENTATION-OF-INTER-PROCESS-COMMUNICATION-USING-PIPE/assets/119559812/0503966a-d366-4cf5-9b1f-0221b66cff82)
 
